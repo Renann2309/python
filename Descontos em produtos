@@ -1,0 +1,8 @@
+preco_produto = float(input("informe o preço do produto:"))
+
+print("o preço do produto informado foi de R$ {:.2f}".format(preco_produto))
+desconto = preco_produto * 1.05
+produto_desconto = preco_produto - desconto
+print("o desconto do produto foi de {:.2f}".format(produto_desconto))
+novo_preco = preco_produto + produto_desconto
+print("o produto sairá por {:.2f}". format(novo_preco))
