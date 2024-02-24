@@ -1,0 +1,7 @@
+import math
+
+angulo = float(input("informe o angulo:"))
+seno = math.sin(math.radians(angulo))
+cosseno = math.cos(math.radians(angulo))
+tg = math.tan(math.radians(angulo))
+print("o angulo informado {}, corresponde ao seno de {:.2f}, cosseno de {:.2f} e tangente {:.2f} ". format(angulo, seno, cosseno, tg))
